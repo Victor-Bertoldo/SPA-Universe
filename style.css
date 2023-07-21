@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {  
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  /* background: rgb(6,0,68);
+  background: linear-gradient(90deg, rgba(6,0,68,1) 0%, rgba(2,0,36,1)  100%); */
+}
+
+
+img {
+  position: absolute;
+  width: 100vw;
+} 
+
+
+nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+
+
+  padding-left: 10rem;
+  padding-top: 4rem;
+}
+
+nav a {
+  font-size: 2.4rem;
+  line-height: 2.1rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #ffffff81;
+}
+
+nav a:hover{
+  color: #ffffff;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 4.8rem;
+  line-height: 125%;
+  font-weight: bold;
+}
+
+#app .content-home{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+
+  text-align: center;
+
+  margin-top: 20rem;
+  color: #ffffff;
+}
+
+#app button {
+  width: 19.5rem;
+  height: 4.8rem;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: bold;
+
+  border: 1px solid white;
+  border-radius: .5rem;
+
+  color: #ffffff;
+  background: transparent;
+  padding: 1.2rem 3.2rem;
+
+  cursor: pointer;
+
+  transition: background 500ms;
+}
+
+#app button:hover {
+  background: #02049642; 
+}
+
+/* .background {
+  position: absolute;
+  background-image: url('./assets/mountains-universe.svg');
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}  */
+
+.content-universe {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  color: #ffffff;
+
+  margin-left: 12rem;
+  margin-top: 15rem;
+}
+
+
+.content-universe p {
+  font-size: 1.8rem;
+  line-height: 160%;
+  font-weight: 400;
+  color: #d1d0d0cb;
+  letter-spacing: .2rem;
+  width: 68.8rem;
+}
+
+.content-exploration {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  color: #ffffff;
+
+  margin-left: 12rem;
+  margin-top: 15rem;
+}
+
+.content-exploration p{
+  font-size: 1.8rem;
+  line-height: 160%;
+  font-weight: 400;
+  color: #d1d0d0cb;
+  letter-spacing: .2rem;
+  width: 68.8rem;
+}
